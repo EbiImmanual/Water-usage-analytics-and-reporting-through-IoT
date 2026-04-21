@@ -116,3 +116,8 @@ Displays:
 
 ```cpp
 #define DAY_INTERVAL 10000UL
+- 10 seconds = 1 day (for testing)
+```
+For real-time usage:
+```cpp
+#define DAY_INTERVAL 86400000UL
